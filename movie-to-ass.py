@@ -6,10 +6,11 @@ from whisperx.translate.movie2audio import extract_audio
 from whisperx.translate.srt2ass import srt_to_ass
 
 # 接收参数传递
-print(sys.argv[1])
-video_path = sys.argv[1]
-
-ROOTDIR = Path(video_path)
+# print(sys.argv[1])
+# video_path = sys.argv[1]
+#
+# ROOTDIR = Path(video_path)
+ROOTDIR = Path("F:\File\Video\example")
 
 for i in os.listdir(ROOTDIR):
     # 删除除wav以外的文件
